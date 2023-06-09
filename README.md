@@ -2,18 +2,33 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 
-#RCC Evaluation Tool for LLMs
 
-The evaluation tool for **Large Language Models(LLMs)** on **Robustness, Consistency and Credibility**.
+# Robustness, Consistency and Credibility Eval for LLMs
+
+TODO 
+
 
 ## Table of Contents
-* [Paper](#Assessing Hidden Risks of LLMs: An Empirical Study on Robustness, Consistency, and Credibility)
+* [Motivation](#Motivation)
+* [Repo Structure](#Repo Structure)
 * [Pre-process](#Pre-process)
 * [Evaluation](#Evaluation)
 * [Benchmarks](#Benchmarks)
 * [Contribution](#Contribution)
+* [Paper](#Assessing Hidden Risks of LLMs: An Empirical Study on Robustness, Consistency, and Credibility)
 * [Citation](#citation)
 
+
+# Repo Structure
+
+TODO
+
+## Motivation
+
+TODO
+- Robustness
+- Consistency
+- RTI
 
 
 ## Assessing Hidden Risks of LLMs: An Empirical Study on Robustness, Consistency, and Credibility
@@ -28,7 +43,7 @@ The recent popularity of large language models (LLMs) has brought a significant 
 
 ![Framework](https://s2.loli.net/2023/06/09/V34xfDP9qTBsYKO.png)
 
-##Installation
+## Installation
 
 To install our tool, simply run this command:
 
