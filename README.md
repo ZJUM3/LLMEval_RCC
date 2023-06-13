@@ -28,9 +28,9 @@ We open-source this tool and framework to assess LLM's performance and identify 
 
 - **Robustness** focuses on examining LLMs' ability to handle adversarial examples, aligning with real-world deployment scenarios.
 - **Consistency** aims to measure the distinction in LLMs' responses to semantically similar inputs.
-- **$$\textsf{RTI}$$ (Credibility)** provides insights into the datasets used to train LLMs. This $$\textsf{RTI}$$ score reflects the relative probability that the datasets have been memorized by LLMs.
+- **$\textsf{RTI}$ (Credibility)** provides insights into the datasets used to train LLMs. This $\textsf{RTI}$ score reflects the relative probability that the datasets have been memorized by LLMs.
 
-More details are shown in our [paper](## Assessing Hidden Risks of LLMs: An Empirical Study on Robustness, Consistency, and Credibility).
+More details are shown in our [paper](## Paper).
 
 
 
@@ -88,9 +88,7 @@ pip install -e .
 > If you want to evaluate models on our custom dataset, please read this section carefully, otherwise you may choose to skip it.
 
 To facilitate auto-interpretation and auto-evaluation, we define a unified data format --- **data primitive** (see paper for more details):
-$$
-D=\{\mathbf{x}_i\}_{i=1}^n=\{(\mathbf{prompt}_i,\mathbf{p}_i,q_i,o_i,a_i)\}_{i=1}^n
-$$
+$$ D = \{\mathbf{x}_ i\}_ {i=1}^n = \{(\mathbf{prompt}_ i, \mathbf{p}_ i,q_ i,o_ i,a_ i)\}_ {i=1}^n $$
 An example is as follows:
 
 ```json
