@@ -10,15 +10,16 @@ Driven by the above two points, we introduce this automated framework to conduct
 
 ## Table of Contents
 
-* [Motivation](## Motivation)
-* [Repo Structure](## Repo Structure)
-* [Pre-process](## Pre-process)
-* [Evaluation on Benchmarks](## Evaluation on benchmarks)
-* [Evaluation on Your Datasets](## Evaluation on your datasets)
-* [Benchmarks](## Benchmarks)
-* [Contribution](## Contribution)
-* [Paper](## Paper)
-* [Citation](## citation)
+* [Motivation](##Motivation)
+* [Repo Structure](##Repo_Structure)
+* [Installation](##Installation)
+* [Data Format](##Data_Format)
+* [Evaluation on Benchmarks](##Evaluation_on_Benchmarks)
+* [Evaluation on Custom Datasets](##Evaluation_on_Custom_Datasets)
+* [Benchmarks](##Benchmarks)
+* [Contribution](##Contribution)
+* [Paper](##Paper)
+* [Citation](##Citation)
 
 
 
@@ -30,7 +31,7 @@ We open-source this tool and framework to assess LLM's performance and identify 
 - **Consistency** aims to measure the distinction in LLMs' responses to semantically similar inputs.
 - **$\textsf{RTI}$ (Credibility)** provides insights into the datasets used to train LLMs. This $\textsf{RTI}$ score reflects the relative probability that the datasets have been memorized by LLMs.
 
-More details are shown in our [paper](## Paper).
+More details are shown in our [paper](##Paper).
 
 
 
@@ -141,7 +142,7 @@ python converter.py --dataset 'GSM8K'
 
 ### Get Input Questions List 
 
-To evaluate on our benchmarks, first obtain a list of questions using the following command. (change `dataset` parameter according to different [benchmarks](## Benchmarks)) :
+To evaluate on our benchmarks, first obtain a list of questions using the following command. (change `dataset` parameter according to different [benchmarks](##Benchmarks)) :
 
 1. Robustness
 
@@ -187,14 +188,14 @@ python processor.py --useChatGPT --api_key ['', '']
 
 ## Evaluation on Custom Datasets
 
-1. Format custom dataset into [data primitive](## Data Format).
+1. Format custom dataset into [data primitive](##Data_Format).
 2. Use the following command to obtain a question list, processed from the dataset you uploaded through the file path `indir`:
 
     ```shell
     python processor.py --indir '' --type robustness 
     ```
 
-The remaining steps are the same as the [benchmark testing](## Evaluation on Benchmarks).
+The remaining steps are the same as the [benchmark testing](##Evaluation_on_Benchmarks).
 
 
 
